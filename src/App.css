@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+  }
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  #about {
+    padding: 40px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #projects {
+    padding: 40px;
+  }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #contact {
+    padding: 40px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  button {
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #3b3f47;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  footer a {
+    margin: 0 10px;
+    color: #282c34;
+  }
+
+  
